@@ -152,3 +152,5 @@ Welcome to the short explanation for bug reporting
 
 Open an [issue](https://github.com/Akebi-Group/Akebi-GC/issues) with the title of the suggestion you want to make.
 In the description, make sure it is **descriptive enough** so our devs can understand what you want and how you want it.  
+
+[Error] [il2cpp-init.cpp:249] Failed to detect any game version. Make sure that Acrepi has been updated for current game version, and that you downloaded the correct one.
