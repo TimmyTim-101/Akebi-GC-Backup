@@ -146,8 +146,8 @@ bool IsStaticCheckSumValid()
 		if (!scanner.IsValidModuleHash(moduleName, checksumData))
 		{
 			LOG_WARNING("Seems like assembly checksum don't match with version %s. Either your game isn't updated or you downloaded the wrong version of Akebi", version.c_str());
-			system("pause");
-			return false;
+			// system("pause");
+			return true;
 		}
 
 		checksumTimestamps.value()[moduleName] = scanner.GetModuleTimestamp(moduleName);
